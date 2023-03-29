@@ -3,6 +3,7 @@
         materialized='ephemeral'
     )
 }}
+Create a temporary table called ‘customer_orders’ with columns for customer ID, first order date, most recent order date, and number of orders”
 SELECT
     table_schema,
     table_name
